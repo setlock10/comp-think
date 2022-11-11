@@ -14,3 +14,23 @@ integer_quotient = num1 // num2
 print('integer quotient', integer_quotient)
 modulus = num1 % num2
 print('modulus', modulus)
+
+my=your=20
+
+print(my, your)
+
+
+degreesF = 212
+degreesC = (degreesF - 32) *5 / 9
+print(degreesC)
+
+PI = 3.14159
+side = 3
+radius = 4
+depth = 0.5
+
+bed1 = side ** 2
+bed2 = PI * radius * radius
+area = bed1 + bed2
+total = area * depth
+print(total)
